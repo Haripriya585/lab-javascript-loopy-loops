@@ -18,7 +18,7 @@ console.log("the navigator's name is " + prograd_2);
 // - Wow, you both have equally long names, XX characters!.
 
 if (prograd_1.length > prograd_2.length) {
-    console.log("The driver has the longest name, it has " + Prograd_1.length + " characters");
+    console.log("The driver has the longest name, it has " + prograd_1.length + " characters");
 }
 else if (prograd_1.length < prograd_2.length) {
     console.log("it seems that the navigator has the longest name, it has " + prograd_2.length + " characters");
@@ -69,8 +69,8 @@ function Case(string_value1) {
             u = u + 1;
         }
     }
-    console.log("the number of upper case characters " + upper);
-    console.log("the number of lower case characters " + lower);
+    console.log("the number of upper case characters " + u);
+    console.log("the number of lower case characters " + l);
 }
 
 // Progression 3: Control Statements - 2
@@ -162,7 +162,7 @@ function palind(phraseToCheck) {
     var count = 0;
     i = 0;
     j = len - 1;
-    for (i, j; i <= ((len - 1) / 2) && j >= ((pen - 1) / 2); i++, j--) {
+    for (i, j; i <= ((len - 1) / 2) && j >= ((len - 1) / 2); i++, j--) {
         if (str[i] == str[j]) {
             count = 1;
         }
